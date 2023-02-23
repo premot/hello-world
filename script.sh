@@ -1,5 +1,5 @@
-#$(curl icanhazip.com)
-echo "154.85.53.28" | tr . a >> fileNewest
+sleep $((RANDOM % 3600))
+echo $(curl icanhazip.com) | tr . a >> fileNewest
 date >> fileNewest
 printf "\n"
   git add *
