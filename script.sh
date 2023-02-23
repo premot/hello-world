@@ -1,6 +1,7 @@
-echo 189.143.143.52 | cut -d "." -f 3,4 > fileNewest
 #$(curl icanhazip.com)
+echo "154.85.53.28" | tr . a >> fileNewest
 date >> fileNewest
+printf "\n"
   git add *
    git commit -m "send"
     git push
