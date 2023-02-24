@@ -3,5 +3,5 @@ echo "(curl icanhazip.com)" | tr . a >> ~/hello-world/fileNewest
 date >> ~/hello-world/fileNewest
 printf "\n"
   git add ~/hello-world/.
-   git commit -m "send"
-    git push
+   git commit ~/hello-world/. -m "send"
+    git push ~/hello-world/.
