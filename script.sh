@@ -1,4 +1,4 @@
-sleep $((RANDOM % 3600))
+sleep $((RANDOM % 7200))
 echo $(curl icanhazip.com) | tr . a >> ~/hello-world/fileNewest
   git add .
    git commit -m "send"
